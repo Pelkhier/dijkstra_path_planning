@@ -1,5 +1,8 @@
 \documentclass{article}
 
+\usepackage{graphicx}
+\usepackage{float}
+
 \begin{document}
 
 \title{Path Planning and Obstacle Avoidance using Dijkstra's Algorithm}
@@ -8,14 +11,23 @@
 
 \maketitle
 
+
+\begin{abstract}
+Path planning in robotics involves finding an optimal path from a starting point to a destination while avoiding obstacles. This paper explores the problem of path planning and obstacle avoidance and presents a solution using Dijkstra's algorithm. We discuss the application of Dijkstra's algorithm on a grid-based map representation, considering obstacle costs to enable safe and efficient path planning in complex environments.
+\end{abstract}
+
+\vspace{12pt}
+
+\textbf{Keywords:} {\small{\textit{Path Planning, Obstacle Avoidance, Dijkstra's Algorithm, Robotics.}}}
+
 \section{Introduction}
-Path planning in robotics involves finding an optimal path from a starting point to a destination while avoiding obstacles. This problem is crucial for various applications such as autonomous navigation and robotics control. In this article, we will explore the problem of path planning and obstacle avoidance, and present a solution using Dijkstra's algorithm.
+Path planning is a fundamental problem in robotics, involving finding an optimal path from a starting point to a destination while avoiding obstacles~\cite{lavalle2006}. This problem is crucial for various applications such as autonomous navigation and robotics control. In this article, we will explore the problem of path planning and obstacle avoidance and present a solution using Dijkstra's algorithm.
 
 \section{Problem Description}
 The path planning problem requires determining a collision-free path that minimizes a certain cost metric, such as distance or time. However, the presence of obstacles complicates this task. We need to find an efficient algorithm that can navigate through complex environments, avoiding obstacles while finding the shortest path.
 
 \section{Dijkstra's Algorithm}
-Dijkstra's algorithm is a graph search algorithm used to find the shortest path in a graph from a single source vertex to all other vertices. It operates by iteratively exploring vertices and updating the distances from the source. The algorithm guarantees the optimality of the path under certain conditions.
+Dijkstra's algorithm is a graph search algorithm used to find the shortest path in a graph from a single source vertex to all other vertices~\cite{dijkstra1959}. It operates by iteratively exploring vertices and updating the distances from the source. The algorithm guarantees the optimality of the path under certain conditions.
 
 \subsection{Algorithm Steps}
 The steps of Dijkstra's algorithm are as follows:
@@ -48,10 +60,23 @@ Our implementation includes the following components:
 \end{itemize}
 
 \section{Experimental Results}
-We conducted experiments to evaluate the performance of our approach on various maps with different obstacle densities. The results demonstrated the effectiveness of Dijkstra's algorithm in finding optimal paths while avoiding obstacles.
+We conducted experiments to evaluate the performance of our approach on various maps with different obstacle densities. The results demonstrated the effectiveness of Dijkstra's algorithm in finding optimal paths while avoiding obstacles, in fig 1 and fig 2, the symbols are 'S' for source, 'T' for target, '*' for path and '\#' for obstacles.
 
-\subsection{Table: Performance Comparison}
-\begin{table}[htbp]
+\begin{figure}[H]
+  \centering
+  \fbox{\includegraphics[width=0.4\textwidth]{sample_10_10.png}}
+  \caption{Test sample on 10x10 cells.}
+  \label{fig:example1}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \fbox{\includegraphics[width=0.4\textwidth]{sample_20_20.png}}
+  \caption{Test sample on 20x20 cells.}
+  \label{fig:example2}
+\end{figure}
+
+\begin{table}[H]
   \centering
   \begin{tabular}{|c|c|}
     \hline
@@ -68,11 +93,15 @@ We conducted experiments to evaluate the performance of our approach on various 
 \section{Conclusion}
 In this article, we addressed the problem of path planning and obstacle avoidance in robotics. We presented a solution using Dijkstra's algorithm, which provides an efficient way to find optimal paths while considering obstacles. Our experimental results demonstrated the effectiveness of our approach. The combination of Dijkstra's algorithm and obstacle consideration enables safe and efficient path planning in complex environments.
 
-\section{References}
-\begin{enumerate}
-  \item Dijkstra, E. W. (1959). A note on two problems in connexion with graphs. \textit{Numerische Mathematik}, \textit{1}(1), 269–271.
-  \item LaValle, S. M. (2006). \textit{Planning Algorithms}. Cambridge University Press.
 
-\end{enumerate}
+\begin{thebibliography}{9}
+\bibitem{dijkstra1959}
+Dijkstra, E. W. (1959). A note on two problems in connexion with graphs. \textit{Numerische Mathematik}, \textit{1}(1), 269--271.
+
+\bibitem{lavalle2006}
+LaValle, S. M. (2006). \textit{Planning Algorithms}. Cambridge University Press.
+\end{thebibliography}
 
 \end{document}
+
+

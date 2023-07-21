@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.26)  20 JUL 2023 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.26)  21 JUL 2023 04:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,60 +23,130 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count193
+\float@exts=\toks17
+\float@box=\box51
+\@float@everytoks=\toks18
+\@floatcapt=\box52
+)
 (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
 .def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count193
-\l__pdf_internal_box=\box51
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box53
 ) (dijkstra.aux)
 \openout1 = `dijkstra.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count195
+\scratchdimen=\dimen143
+\scratchbox=\box54
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen144
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks20
+)
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
+.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
+(Font)              <12> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
+(Font)              <6> on input line 12.
  [1
 
-{C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/hp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+<sample_10_10.png, id=17, 121.05225pt x 123.46124pt>
+File: sample_10_10.png Graphic file (type png)
+<use sample_10_10.png>
+Package pdftex.def Info: sample_10_10.png  used on input line 67.
+(pdftex.def)             Requested size: 137.9979pt x 140.74913pt.
+<sample_20_20.png, id=19, 222.8325pt x 199.947pt>
+File: sample_20_20.png Graphic file (type png)
+<use sample_20_20.png>
+Package pdftex.def Info: sample_20_20.png  used on input line 74.
+(pdftex.def)             Requested size: 137.9979pt x 123.8255pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 56.
- [2] [3] (dijkstra.aux) ) 
+(Font)              <5> on input line 81.
+
+[3 <./sample_10_10.png> <./sample_20_20.png>] [4] (dijkstra.aux) ) 
 Here is how much of TeX's memory you used:
- 457 strings out of 476331
- 8755 string characters out of 5789181
- 1857660 words of memory out of 5000000
- 20966 multiletter control sequences out of 15000+600000
- 516915 words of font info for 47 fonts, out of 8000000 for 9000
+ 1409 strings out of 476331
+ 23720 string characters out of 5789181
+ 1856660 words of memory out of 5000000
+ 21872 multiletter control sequences out of 15000+600000
+ 518175 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,8n,38p,471b,202s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\hp\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\tcrm1000.pk><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hp/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/hp/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/hp/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on dijkstra.pdf (3 pages, 85459 bytes).
+ 57i,8n,62p,471b,233s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\hp
+\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/
+hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
+Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x9.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr9.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmti10.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on dijkstra.pdf (4 pages, 142664 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
